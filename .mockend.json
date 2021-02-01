@@ -10,12 +10,12 @@
       "body": "string",
       "post": "Post"
     },
-    "result":{
+    "Result":{
         "license_category_name": "string",
         "preference" : "int",
-        "license_family" : "license_family[]"
+        "license_family" : "string"
     },
-    "license_family": {
+    "License_family": {
         "license_family_name" : "UTM Security Pack",
         "preference" : "int",
         "license_description" : "abcd-12345",
