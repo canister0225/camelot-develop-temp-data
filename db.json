@@ -1,0 +1,53 @@
+{
+    "code": 0,
+    "success": true,
+    "name": "CAMELOT_SUCCESS",
+    "message": "OK",
+    "display": "Operation Succeeded",
+    "result": [
+    {
+        "license_category_name": "Security License",
+        "preference" : 1,
+        "license_family" : [
+                              {
+                                 "license_family_name" : "UTM Security Pack",
+                                 "preference" : 3,
+                                 "license_description" : "abcd-12345",
+                                 "recommended" : true,
+                                 "series_family" : ["ATP Series", "USG Series", "VPN Series"],
+                                 "icon_path" : "https://www.icon.com/shield.gif"
+                              },                                   
+                              {
+                                 "license_family_name" : "Gold Security Pack",
+                                 "preference" : 10,
+                                 "license_description" : "test-12345",
+                                 "recommended" : false,
+                                 "series_family" : ["GS Series", "NAP Series", "VPN Series"],
+                                 "icon_path" : "https://www.icon.com/funnel.gif"
+                              }
+                           ]
+    },             
+    {
+        "license_category_name": "Connectivity License",
+        "preference" : 5,
+        "license_family" : [
+                              {
+                                 "license_family_name" : "SSL VPN",
+                                 "preference" : 7,
+                                 "license_description" : "VPN-12345",
+                                 "recommended" : true,
+                                 "series_family" : ["Software Licenses"],
+                                 "icon_path" : "https://www.icon.com/earth.gif"
+                              },                                      
+                              {
+                                 "license_family_name" : "IPSec VPN Client",
+                                 "preference" : 20,
+                                 "license_description" : "ipsec-12345",
+                                 "recommended" : false,
+                                 "series_family" : ["Software Licenses"],
+                                 "icon_path" : "https://www.icon.com/earth.gif"
+                              }
+                           ]
+    }
+  ]
+}
