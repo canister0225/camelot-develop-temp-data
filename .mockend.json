@@ -10,17 +10,9 @@
       "body": "string",
       "post": "Post"
     },
-    "Result":{
+    "Result": {
         "license_category_name": "string",
         "preference" : "int",
         "license_family" : "string"
-    },
-    "License_family": {
-        "license_family_name" : "UTM Security Pack",
-        "preference" : "int",
-        "license_description" : "abcd-12345",
-        "recommended" : "boolean",
-        "series_family" : ["ATP Series", "USG Series", "VPN Series"],
-        "icon_path" : "https://www.icon.com/shield.gif"
     }
   }
